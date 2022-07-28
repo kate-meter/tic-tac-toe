@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Courier New";
+}
+
+#settings-overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  background-color: white;
+}
+
+button{
+  font-family: "Courier New";
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+}
+
+#winnerIs{
+  font-size: xx-large;
+}
